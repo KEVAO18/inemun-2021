@@ -1,0 +1,54 @@
+
+:root {
+  --main-color: #dfe6e9;
+  --color-1: #dfe4ea;
+  --color-2: #fefefe;
+  --color-3: #444444;
+  --color-4: #000000;
+  --color-5: #fefefe25;
+  --color-6: #3d3d3d;
+}
+
+
+
+/****************************/
+/*          fondos          */
+/****************************/
+
+
+.bg-main{background: var(--main-color) !important; }
+
+.bg-1{background: var(--color-1) !important;}
+
+.bg-2{background: var(--color-2) !important;}
+
+.bg-3{background: var(--color-3) !important;}
+
+.bg-4{background: var(--color-4) !important;}
+
+.bg-5{background: var(--color-5) !important;}
+
+.bg-6{background: var(--color-6) !important;}
+
+
+
+/****************************/
+/*          color           */
+/****************************/
+
+
+.top-bar>i{color: var(--color-2) !important;}
+
+.color-main{color: var(--main-color) !important;}
+
+.color-1{color: var(--color-1) !important;}
+
+.color-2{color: var(--color-2) !important;}
+
+.color-3{color: var(--color-3) !important;}
+
+.color-4{color: var(--color-4) !important;}
+
+.color-5{color: var(--color-5) !important;}
+
+.color-6{color: var(--color-6) !important;}
