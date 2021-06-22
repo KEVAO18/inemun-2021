@@ -16,10 +16,6 @@
                 include "../web/views/".$ruta[0].".php";
                 junta_directiva($serve);
                 break;
-            case "filosofia_y_metodos":
-                include "../web/views/".$ruta[0].".php";
-                filosofia_y_metodos($serve);
-                break;
             case "comites":
                 include "../web/views/".$ruta[0].".php";
                 comites($serve);
@@ -28,17 +24,9 @@
                 include "../web/views/".$ruta[0].".php";
                 inscrpciones($serve);
                 break;
-            case "contactanos":
+            case "apoyo":
                 include "../web/views/".$ruta[0].".php";
-                contactanos($serve);
-                break;
-            case "manual_del_delegado":
-                include "../web/views/".$ruta[0].".php";
-                manual_del_delegado($serve);
-                break;
-            case "portafolio":
-                include "../web/views/".$ruta[0].".php";
-                portafolio($serve);
+                apoyo($serve);
                 break;
             case "login":
                 include "../web/views/".$ruta[0].".php";

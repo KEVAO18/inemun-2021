@@ -10,7 +10,7 @@ $date = date("Y-m-d");
 
 $icoName = "logo";
 
-$serve = "http://localhost/proyectos/php/inemun";
+$serve = "http://192.168.1.6/proyectos/php/inemun";
 
 function loginIcon($s){
 	@session_start();
@@ -28,7 +28,7 @@ function loginIcon($s){
 			?>
 			<li class="nav-item">
 			  <a class="nav-link waves-effect waves-light" href="<?=$s?>/login">
-			    <i class="fas fa-user"></i>
+			    <i class="fas fa-user"></i> 
 			  </a>
 			</li>
 			<?php

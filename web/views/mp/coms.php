@@ -28,7 +28,7 @@ function coms($s){
 
 		}
 	?>
-				<div class="col-md-3 col-sm-6 my-2-r" data-aos="<?=$d?>" data-aos-easing="ease-in-sine" data-aos-duration="500">
+				<div class="col-md-4 col-sm-6 my-2-r" data-aos="<?=$d?>" data-aos-easing="ease-in-sine" data-aos-duration="500">
 					<div class="card text-center">
 						<img class="card-img-top" src="<?=$s.'/assets/media/'.$com['foto']?>" alt="<?=$com['foto']?>">
 						<h4 class="card-title pt-2 text-center text-capitalize"><?=$com['nombre']?></h4>
@@ -42,7 +42,7 @@ function coms($s){
 
 	<?php
 
-		if ($i == 4 || ($i <= 3 && $p2 == $com['id'])) {
+		if ($i == 3 || ($i <= 2 && $p2 == $com['id'])) {
 
 			?>
 

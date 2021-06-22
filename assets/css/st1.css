@@ -39,6 +39,9 @@
 .b-round{
 	border-radius: 0.125rem;
 }
+.b-round-1{
+  border-radius: 1rem;
+}
 
 .b-round-2{
   border-radius: 2rem;
