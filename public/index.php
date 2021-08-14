@@ -18,16 +18,17 @@ session_start();
 
 	  <link rel="icon" href="<?=$serve?>/assets/media/.png">
 
-	    <!-- Font Awesome -->
-    	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css'>
-    	<!--Import Google Icon Font-->
+    <!-- Font Awesome -->
+  	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css'>
+  	<!--Import Google Icon Font-->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	    <!-- css styles import -->
-	    <link rel="stylesheet" href="<?=$serve?>/assets/css/colores.css">
-	    <link rel="stylesheet" href="<?=$serve?>/assets/css/padding.css">
-	    <link rel="stylesheet" href="<?=$serve?>/assets/css/margin.css">
-	    <link rel="stylesheet" href="<?=$serve?>/assets/css/st1.css">
-	    <link rel="stylesheet" href="<?=$serve?>/assets/css/hw.css">
+    <!-- css styles import -->
+    <link rel="stylesheet" href="<?=$serve?>/assets/css/colores.css">
+    <link rel="stylesheet" href="<?=$serve?>/assets/css/padding.css">
+    <link rel="stylesheet" href="<?=$serve?>/assets/css/margin.css">
+    <link rel="stylesheet" href="<?=$serve?>/assets/css/st1.css">
+    <link rel="stylesheet" href="<?=$serve?>/assets/css/hw.css">
+    <style>*{margin:0;padding:0;} html,body,#wrapper{width:100%;height:100%;} iframe{border-radius:0 !important;}</style>
 		<!-- Bootstrap core CSS -->
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
 		<!-- Material Design Bootstrap -->
@@ -62,9 +63,6 @@ session_start();
   	      <li class="nav-item">
   	        <a class="nav-link" href="<?=$serve?>/apoyo">Documentos de apoyo</a>
   	      </li>
-  	    </ul>
-  	    <ul class="navbar-nav ml-auto nav-flex-icons">
-          <?=loginIcon($serve)?>
   	    </ul>
   	  </div>
   	</nav>
