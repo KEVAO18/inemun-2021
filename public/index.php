@@ -41,7 +41,7 @@ session_start();
   </head>
   <body>
   	<!--Navbar -->
-  	<nav class="mb-1 navbar navbar-expand-lg navbar-light bg-main fixed-top scrolling-navbar">
+  	<nav class="mb-1 navbar navbar-expand-lg navbar-dark bg-main fixed-top scrolling-navbar">
   	  <a class="navbar-brand" href="<?=$serve?>/inicio"><?=$appName?></a>
   	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
   	    aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,18 +50,14 @@ session_start();
   	  <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
   	    <ul class="navbar-nav mr-auto">
   	      <li class="nav-item">
-  	        <a class="nav-link" href="<?=$serve?>/inicio">Home
-  	          <span class="sr-only">(current)</span>
-  	        </a>
-  	      </li>
-  	      <li class="nav-item">
-  	        <a class="nav-link" href="<?=$serve?>/junta_directiva">Junta directiva</a>
+  	        <a class="nav-link" href="<?=$serve?>/inscrpciones">Inscrpciones</a>
+	          <span class="sr-only">(current)</span>
   	      </li>
   	      <li class="nav-item">
   	        <a class="nav-link" href="<?=$serve?>/comites">Comites</a>
   	      </li>
   	      <li class="nav-item">
-  	        <a class="nav-link" href="<?=$serve?>/inscrpciones">Inscrpciones</a>
+  	        <a class="nav-link" href="<?=$serve?>/junta_directiva">Junta directiva</a>
   	      </li>
   	      <li class="nav-item">
   	        <a class="nav-link" href="<?=$serve?>/apoyo">Documentos de apoyo</a>
@@ -73,60 +69,62 @@ session_start();
   	  </div>
   	</nav>
   	<!--/.Navbar -->
-       <header>
-          <div class="view">
-            <div class="full-bg-img">
-              <div class="mask rgba-black-strong flex-center">
-                <div class="container">
-                  <div class="white-text text-center mx-auto">
-                    <h1><?=$appName?></h1>
-                    <hr class="w-80-p mx-auto bg-3">
-                    <h5>Modelo de las naciones unidas del INEM</h5>
-                  </div>
-                </div>
+    <header>
+      <div class="view">
+        <div class="full-bg-img">
+          <div class="mask rgba-black-strong flex-center">
+            <div class="container">
+              <div class="white-text text-center mx-auto">
+                <h1><?=$appName?></h1>
+                <hr class="w-80-p mx-auto bg-3">
+                <h5>Modelo de las naciones unidas del INEM</h5>
               </div>
             </div>
           </div>
-        </header>
-	<?=routes($serve, $appName);?>
+        </div>
+      </div>
+    </header>
+    <?=routes($serve, $appName);?>
   	<!-- Footer -->
-  	<footer class="page-footer font-small bg-1 pt-4">
+  	<footer class="page-footer font-small bg-3 pt-4">
   	  <div class="container text-center text-md-left">
   	    <div class="row">
   	      <div class="col-md-6 mt-md-0 mt-3">
-  	        <h5 class="text-uppercase color-3">INEMUN</h5>
-  	        <p class="color-3">Modelo de las naciones unidas</p>
+  	        <h5 class="text-uppercase color-2">INEMUN</h5>
+  	        <p class="color-2">Somos del porvenir La esperanza, y como tal hay que
+                           <br>cumplir. Con fe y con amor vamos a estudiar Y un
+                           <br>mejor mañana a construir.</p>
   	      </div>
   	      <hr class="clearfix w-100 d-md-none pb-3">
   	      <div class="col-md-3 mb-md-0 mb-3">
-  	        <h5 class="text-uppercase color-3">Utiles</h5>
+  	        <h5 class="text-uppercase color-2">Utiles</h5>
   	        <ul class="list-unstyled list1">
   	          <li>
-  	            <a href="<?=$serve?>/comites" class="color-3">Comites</a>
+  	            <a href="<?=$serve?>/comites" class="color-2">Comites</a>
   	          </li>
   	          <li>
-  	            <a href="<?=$serve?>/inscrpciones" class="color-3">Inscrpciones</a>
+  	            <a href="<?=$serve?>/inscrpciones" class="color-2">Inscrpciones</a>
   	          </li>
               <li>
-                <a href="<?=$serve?>/apoyo" class="color-3">Documentos de apoyo</a>
+                <a href="<?=$serve?>/apoyo" class="color-2">Documentos de apoyo</a>
               </li>
               <li>
-                <a href="<?=$serve?>/junta_directiva" class="color-3">Junta directiva</a>
+                <a href="<?=$serve?>/junta_directiva" class="color-2">Junta directiva</a>
               </li>
   	        </ul>
   	      </div>
   	      <hr class="clearfix w-100 d-md-none pb-3">
   	      <div class="col-md-3 mb-md-0 mb-3">
-  	        <h5 class="text-uppercase color-3">Nosotros</h5>
-  	        <ul class="list-unstyled list1 color-3">
+  	        <h5 class="text-uppercase color-2">Nosotros</h5>
+  	        <ul class="list-unstyled list1 color-2">
               <li>
-                 Cra. 48 ##1-125, Medellín, Antioquia
+                Cra. 48 #1-125, Medellín, Antioquia
               </li>
               <li>
-                <i class="fas fa-phone fs-1-5"></i> (4) 2664600
+                <i class="fas fa-phone fs-1"></i> (4) 2664600
               </li>
               <li>
-                 inemun@inemjose.edu.co
+                inemun@inemjose.edu.co
               </li>
   	        </ul>
   	      </div>
@@ -140,14 +138,14 @@ session_start();
 
   	<!-- aos -->
   	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-	<script>
-		AOS.init();
-	</script>
-	<!-- Bootstrap tooltips -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-	<!-- Bootstrap core JavaScript -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-	<!-- MDB core JavaScript -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+  	<script>
+  		AOS.init();
+  	</script>
+  	<!-- Bootstrap tooltips -->
+  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  	<!-- Bootstrap core JavaScript -->
+  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  	<!-- MDB core JavaScript -->
+  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
   </body>
 </html>

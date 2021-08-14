@@ -8,7 +8,7 @@ function comites($s){
     	<div class="fs-3 text-capitalize text-center">Comites</div>
 		<?=coms($s)?>
 	    <div class="">
-	      <a href="<?=$s?>/inscrpciones" class="btn btn-block bg-main">Inscribete</a>
+	      <a href="<?=$s?>/inscrpciones" class="btn btn-block bg-3 color-2">Inscribete</a>
 	    </div>
 	</div>
 	<?php

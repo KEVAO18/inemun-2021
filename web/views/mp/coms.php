@@ -27,17 +27,14 @@ function coms($s){
 		<?php
 
 		}
-	?>
+	?>				
 				<div class="col-md-4 col-sm-6 my-2-r" data-aos="<?=$d?>" data-aos-easing="ease-in-sine" data-aos-duration="500">
-					<div class="card text-center">
-						<img class="card-img-top" src="<?=$s.'/assets/media/'.$com['foto']?>" alt="<?=$com['foto']?>">
-						<h4 class="card-title pt-2 text-center text-capitalize"><?=$com['nombre']?></h4>
-						<div class="rounded-bottom bg-main text-center pt-3">
-							<ul class="list-unstyled list-inline font-small">
-							  <li class="list-inline-item black-text"><?=$com['descripcion']?></li>
-							</ul>
+					<a href="<?=$s?>/comite/<?=$com['id']?>" class="text-white hover">
+						<div class="card text-center bg-dark text-light">
+							<img class="card-img-top" src="<?=$s.'/assets/media/'.$com['foto']?>" alt="<?=$com['foto']?>">
+							<h4 class="card-title pt-1-r px-1-r text-center text-capitalize"><?=$com['nombre']?></h4>
 						</div>
-					</div>
+					</a>
 				</div>
 
 	<?php

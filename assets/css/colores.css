@@ -1,12 +1,13 @@
 
 :root {
-  --main-color: #dfe6e9;
+  --main-color: #00000000;
   --color-1: #dfe4ea;
   --color-2: #fefefe;
   --color-3: #444444;
   --color-4: #000000;
   --color-5: #fefefe25;
   --color-6: #3d3d3d;
+  --color-7: #f02121;
 }
 
 
@@ -30,6 +31,8 @@
 
 .bg-6{background: var(--color-6) !important;}
 
+.bg-7{background: var(--color-7) !important;}
+
 
 
 /****************************/
@@ -52,3 +55,5 @@
 .color-5{color: var(--color-5) !important;}
 
 .color-6{color: var(--color-6) !important;}
+
+.color-7{color: var(--color-7) !important;}

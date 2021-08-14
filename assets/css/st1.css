@@ -24,12 +24,24 @@
   font-size: 4rem;
 }
 
+.fs-3-5{
+  font-size: 3.5rem;
+}
+
 .fs-3{
   font-size: 3rem;
 }
 
+.fs-2-5{
+  font-size: 2.5rem;
+}
+
 .fs-2{
   font-size: 2rem;
+}
+
+.fs-1-5{
+  font-size: 1.5rem;
 }
 
 .fs-1{
@@ -88,7 +100,8 @@ html,body,header,.view {
 }
 
 .top-nav-collapse{
-  background: #ffffffee !important;
+  background: #5c5c5cee !important;
+  backdrop-filter: blur(3px);
 }
 
 .sel{

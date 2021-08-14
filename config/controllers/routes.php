@@ -20,6 +20,10 @@
                 include "../web/views/".$ruta[0].".php";
                 comites($serve);
                 break;
+            case "comite":
+                include "../web/views/".$ruta[0].".php";
+                comite($serve, $ruta[1]);
+                break;
             case "inscrpciones":
                 include "../web/views/".$ruta[0].".php";
                 inscrpciones($serve);

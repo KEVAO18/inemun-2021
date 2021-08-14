@@ -10,7 +10,7 @@ $date = date("Y-m-d");
 
 $icoName = "logo";
 
-$serve = "http://192.168.1.6/proyectos/php/inemun";
+$serve = "http://localhost/proyectos/php/inemun";
 
 function loginIcon($s){
 	@session_start();
