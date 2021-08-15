@@ -16,7 +16,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	  <title><?=$appName?></title>
 
-	  <link rel="icon" href="<?=$serve?>/assets/media/.png">
+	  <link rel="icon" href="<?=$serve?>/assets/media/<?=$icoName?>.png">
 
     <!-- Font Awesome -->
   	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css'>
@@ -73,9 +73,10 @@ session_start();
           <div class="mask rgba-black-strong flex-center">
             <div class="container">
               <div class="white-text text-center mx-auto">
+                <center>
+                  <img src="<?=$serve?>/assets/media/favicon.png" class="w-30-v py-3-r">
+                </center>
                 <h1><?=$appName?></h1>
-                <hr class="w-80-p mx-auto bg-3">
-                <h5>Modelo de las naciones unidas del INEM</h5>
               </div>
             </div>
           </div>

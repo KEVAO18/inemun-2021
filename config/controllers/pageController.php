@@ -2,13 +2,13 @@
 
 $autor = "Kevin Orrego";
 
-$appName = "INEMUN";
+$appName = "INEMUN X";
 
 $email = "kevao.dev@gmail.com";
 
 $date = date("Y-m-d");
 
-$icoName = "logo";
+$icoName = "favicon";
 
 $serve = "http://localhost/proyectos/php/inemun";
 

@@ -5,7 +5,7 @@ function comites($s){
 
 	?>
 	<div class="container mb-4 py-1-r">
-    	<div class="fs-3 text-capitalize text-center">Comites</div>
+    	<div class="fs-3 text-center text-uppercase">Comités</div>
 		<?=coms($s)?>
 	    <div class="">
 	      <a href="<?=$s?>/inscrpciones" class="btn btn-block bg-3 color-2">Inscribete</a>

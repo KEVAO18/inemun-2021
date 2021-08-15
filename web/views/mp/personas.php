@@ -36,7 +36,7 @@ function personas($s){
 						<h4 class="card-title pt-2 text-center text-capitalize"><?=$persona['name']?></h4>
 						<div class="rounded-bottom bg-main text-center pt-3">
 							<ul class="list-unstyled list-inline font-small">
-							  <li class="list-inline-item black-text"><?=$persona['cargo']?></li>
+							  <li class="list-inline-item black-text"><b><i><?=$persona['cargo']?></i></b></li>
 							</ul>
 						</div>
 					</div>

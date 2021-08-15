@@ -5,13 +5,13 @@ function inicio($appName, $serve){
 
 	?>
 	<div class="container mb-4 py-1-r">
-    <div class="fs-3 text-capitalize text-center">fechas para tener en cuenta</div>
+    <div class="fs-3 text-uppercase text-center">fechas para tener en cuenta</div>
 		<?=fechas($serve)?>
     <div class="">
       <a href="<?=$serve?>/inscrpciones" class="btn btn-block bg-3 text-light" style="font-size: 1.5rem;">Inscribete</a>
     </div>
     <div class="container mt-5-r b-round">
-      <div class="fs-3 text-capitalize text-center">Nuestros principios</div>
+      <div class="fs-3 text-uppercase text-center">Nuestros principios</div>
       <div class="row">
       	<div class="col-sm-12 col-md-4 py-3-r text-center">
       		<div class="card bg-dark text-light py-2 px-4 h-70-v" data-aos="fade-up" data-aos-duration="1000">
