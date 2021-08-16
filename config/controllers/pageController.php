@@ -10,7 +10,7 @@ $date = date("Y-m-d");
 
 $icoName = "favicon";
 
-//$serve = "http://localhost/proyectos/php/inemun";
+// $serve = "http://localhost/proyectos/php/inemun";
 
 $serve = "https://inemunx.com";
 
