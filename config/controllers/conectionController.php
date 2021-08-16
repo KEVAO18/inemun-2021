@@ -16,9 +16,9 @@ class conectionController{
 
 	Public function __construct(){
 		$this->host = "localhost";
-		$this->user = "kevao";
-		$this->pass = "1001228811KevinAndres";
-		$this->db = "fechas";
+		$this->user = "u960835719_inemun";
+		$this->pass = "InemX20212021";
+		$this->db = "u960835719_inemunx";
 		$this->charset = "utf8mb4";
 	}
 
