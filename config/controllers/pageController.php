@@ -12,7 +12,7 @@ $icoName = "favicon";
 
 //$serve = "http://localhost/proyectos/php/inemun";
 
-$serve = "https://inemunx.com/";
+$serve = "https://inemunx.com";
 
 function loginIcon($s){
 	@session_start();
