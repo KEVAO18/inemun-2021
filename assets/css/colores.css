@@ -8,6 +8,8 @@
   --color-5: #fefefe25;
   --color-6: #3d3d3d;
   --color-7: #f02121;
+  --color-h: #212121;
+  --color-t: #e0e0e0 ;
 }
 
 
@@ -32,6 +34,18 @@
 .bg-6{background: var(--color-6) !important;}
 
 .bg-7{background: var(--color-7) !important;}
+
+.bg-hover{
+  background: var(--color-h) !important;
+  color: var(--color-t) !important;
+  transition: .5s;
+}
+
+.bg-hover:hover{
+  background: var(--color-2) !important;
+  color: var(--color-h) !important;
+  transition: .5s;
+}
 
 
 

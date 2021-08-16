@@ -2,6 +2,7 @@
 
 function inicio($appName, $serve){
 	include_once 'mp/fechas.php';
+	include_once 'mp/docs.php';
 
 	?>
 	<div class="container mb-4 py-1-r">
@@ -35,6 +36,9 @@ function inicio($appName, $serve){
       		</div>
       	</div>
       </div>
+    </div>
+    <div class="container" id="documentos">
+    	<?=docs()?>
     </div>
 	</div>
 	<?php

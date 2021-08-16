@@ -61,7 +61,7 @@ session_start();
   	        <a class="nav-link" href="<?=$serve?>/junta_directiva">Junta directiva</a>
   	      </li>
   	      <li class="nav-item">
-  	        <a class="nav-link" href="<?=$serve?>/apoyo">Documentos de apoyo</a>
+  	        <a class="nav-link" href="<?=$serve?>/inicio#documentos">Documentos de apoyo</a>
   	      </li>
   	    </ul>
   	  </div>
